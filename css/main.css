@@ -1,0 +1,280 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	//background: #EFEFEF;
+       background-color: #F0A830;
+       background-image:url(../images/background.jpg) ;
+	background-size:115%;
+}
+
+#page
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: white;
+	//border: 1px solid #C9E0ED;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	//border-top: 3px solid #C9E0ED;
+          background: rgba(0,128,255,0.7);
+          color: hsla(0,0%,100%, 1);
+}
+
+#content
+{
+    padding: 20px;
+    background-image:url(../images/nogole.png);
+    //transform: skew(30deg,20deg);
+    
+    background-repeat: no-repeat;
+    background-position: 95% 0%;
+    background-origin: content-box;
+ 
+    background-size: 30%;
+    
+    
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	//background:white url(bg.gif) repeat-x left top;
+        font: bold 1.1em "Arial Narrow", "Franklin Gothic Medium",Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: black;
+    border-bottom: 1px solid silver;
+     //width:100px;
+    //transition: width 2s;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	//color:#000000;
+	//background-color:transparent;
+	//font-size:12px;
+	//font-weight:bold;
+	//text-decoration:blink;
+	//padding:5px 8px;
+        
+        font: bold 1.1em "Arial Narrow", "Franklin Gothic Medium",Arial;
+    //display: block;
+    text-decoration: none;
+    padding: .6em;
+    //color: #78c0a8;
+    color: SILVER;
+    border:2px solid rgba(255,122,164,0.5);
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px #888888;
+   
+   //border-bottom: 1px solid silver;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	//color: #6399cd;
+	//background-color:#EFF4FA;
+	//text-decoration: none;
+//background-color: #666;
+        background-color: rgb(0,128,255); 
+        //width: 300px;
+        
+       
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+color:white;
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #444;
+	//border-left: 5px solid grey;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: White;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#666;
+        
+}
+.portlet a
+{
+    color:WHITE;
+}
+
+.portlet a:hover
+{
+    color:black;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+        color:white;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #78C0A8;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #F07818;
+}
