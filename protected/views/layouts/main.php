@@ -32,6 +32,7 @@
 				array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				//array('label'=>'My Music', 'url'=>array('/song/index'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Parties', 'url'=>array('/party/index')),
                                 array('label'=>'My Song Requests', 'url'=>array('/request/list'), 'visible'=>!Yii::app()->user->isGuest),
                                 array('label'=>'My Mood Requests', 'url'=>array('/mood/list'), 'visible'=>!Yii::app()->user->isGuest),
                                 array('label'=>'Request Song', 'url'=>array('/request/create'), 'visible'=>Yii::app()->user->isGuest),
